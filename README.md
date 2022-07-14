@@ -1,0 +1,2 @@
+# TWELITE_STAGE_SDK_COMMON
+Stores common files in TWELITE STAGE SDK (MWSTAGE folder)
