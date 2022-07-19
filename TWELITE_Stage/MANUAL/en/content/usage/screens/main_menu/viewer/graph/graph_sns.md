@@ -67,6 +67,37 @@ Mouse drag (bottom scroll bar) | Move the display position when zooming in | Mov
 | `[↑]` at Nodes screen               | Reverses the order of the listings |
 
 
+
+#### Edit Sensor Node Description
+
+`v1.3.9`or later
+
+
+
+On the "24-hour data screen," left-clicking on the memo portion of the sensor node in the upper right corner of the screen will prompt you to edit the memo.
+
+
+
+![Sensor node memo section intensive](../../../../../.gitbook/assets/img_graph_sns_edit_desc.png)
+
+
+
+
+
+| Key     | Description                                             |
+| ------------ | ------------------------------------------------------------ |
+| ASCII charavcters     | If you enter a normal alphanumeric string directly, it will be switched accordingly on the screen. |
+| `BS`         | Delete the trailing characters displayed.                       |
+| `ENTER`      | The entered string is reflected in the database.                   |
+
+* IME input operations (e.g. Japanese) may depend on the system you are using.
+* Unexpected character strings may be input depending on the operation at the time of IME input. When an unnecessary string is displayed in the input area, delete the unnecessary part by pressing the `BS` key.
+
+
+
+
+
+
 ### Screen Transitions
 
 There are three basic types of screens: list, 24-hour, and live.
@@ -122,7 +153,7 @@ Used to store additional information (text) in sensor nodes.
 | ---------- | ------- | ------------------------------------------------------------ |
 | `sid`      | INTEGER | SID above                                                    |
 | `sid_text` | TEXT    | SID converted to hexadecimal string (for readability)            |
-| `desc`     | TEXT    | Auxiliary information corresponding to the SID, to be displayed together in a list, etc. <br />- TWELITE STAGE does not provide an interface to edit this part. Please edit it directly if necessary. |
+| `desc`     | TEXT    | Auxiliary information corresponding to the SID, to be displayed together in a list, etc. |
 
 #### sensor_last
 

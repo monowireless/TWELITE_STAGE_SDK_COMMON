@@ -12,6 +12,11 @@ This is an explanation of the TWELITE STAGE screen and operation methods.
 
 To start the TWELITE STAGE application, execute the executable found in `{MWSTAGE Installation}`.
 
+{% hint style="warning" %}
+When replacing the TWELITE STAGE application executable due to updates, etc., be sure to copy it to the designated folder `{MWSTAGE Installation}`. If you place the executable in any other folder, the behavior is undefined.
+{% endhint %}
+
+
 The execution method differs for each system (Windows, macOS, Linux).
 
 | system | file extension | notes |
@@ -39,3 +44,15 @@ In this case, make a copy of the executable and launch it as a separate file nam
 There are two types of running screens: one is the command screen (if started from the command screen, the same screen is used) and one is the main screen of TWELITE STAGE. The command screen is not normally used, although it is possible to check the operation and other auxiliary information.
 
 ![STAGE画面例](../.gitbook/assets/img_stage_open_with_cmdwin.png)
+
+## Exit
+
+Please use one of the following methods to exit.
+* Move the mouse pointer to the upper right on the execution screen, and the Exit button will appear. Press this button.
+* Close the window of the execution screen.
+
+{% hint style="warning" %}
+In rare cases, the run screen may remain after the exit operation. In this case, please try the following.
+* Close the command line window of the TWELTIE STAGE application.
+* Perform a forced termination (refer to your system's instructions for how to perform a forced termination).
+{% endhint %}

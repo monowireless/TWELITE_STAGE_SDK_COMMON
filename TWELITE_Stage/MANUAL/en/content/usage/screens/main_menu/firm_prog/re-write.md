@@ -13,6 +13,6 @@ Re-selects the item that was specified and re-programmed immediately before.
 Depending on the selection, the behavior will be one of the following
 
 * Re-programming of the selected project
-* Linear selected list screen
+* last selected
 {% endhint %}
 

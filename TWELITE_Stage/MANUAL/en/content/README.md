@@ -39,9 +39,9 @@ Operating conditions, distribution format, and implemented functions differ depe
 
 
 
-! [root menu](.gitbook/assets/img_rootmenu-1.png)
+![root menu](.gitbook/assets/img_rootmenu-1.png)
 
-! [Acceleration real-time graph](.gitbook/assets/img_graph_mot_demodata.png)
+![Acceleration real-time graph](.gitbook/assets/img_graph_mot_demodata.png)
 
 
 
